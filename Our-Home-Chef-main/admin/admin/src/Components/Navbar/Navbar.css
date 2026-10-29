@@ -1,0 +1,40 @@
+.navbar{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 1cm;
+}
+.admin-navbar{
+    display: flex;
+    align-items: center;
+    margin-left: 0.5cm;
+}
+
+.admin-navbar img{
+    width: 2cm;
+    padding:0.3cm;
+}
+
+.admin-info{
+    margin-left:0.1cm;
+}
+
+.admin-info h1,
+.admin-info h2{
+    margin: 0;
+}
+
+.admin-info h1{
+   font-size: 0.7cm;
+}
+
+.admin-info h2{
+    font-size: 0.6cm;
+    font-weight: 400;
+    margin-top: 4px;
+}
+.profile img{
+  width: 2cm;
+}

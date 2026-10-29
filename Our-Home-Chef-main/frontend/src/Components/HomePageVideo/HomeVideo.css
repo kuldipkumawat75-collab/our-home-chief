@@ -1,0 +1,97 @@
+*{
+    margin-top:10px;
+}
+.hero {
+    width: calc(100% - 140px); /* 70px left + 70px right */
+    height: 70vh;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.hero-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+     filter: brightness(45%) contrast(105%);
+}
+
+/* Overlay Content */
+
+.hero-overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+    color: #fff;
+    width: 90%;
+}
+
+.hero-overlay h1{
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.hero-overlay p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.explore-btn{
+    padding: 14px 25px;
+    border: none;
+    border-radius: 30px;
+    background: #535353;
+    color: #292929;
+    font-size: 18px;
+     font-weight: 600   ;
+    cursor: pointer;
+    transition: 0.3s ease;
+    width:270px;
+}
+
+.explore-btn:hover{
+    background: #27ae60;
+    transform: translateY(-3px);
+}
+
+/* Responsive */
+
+@media (max-width:768px){
+
+    .hero-overlay h1{
+        font-size: 34px;
+    }
+
+    .hero-overlay p{
+        font-size: 16px;
+    }
+
+    .explore-btn{
+        padding: 12px 24px;
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width:480px){
+
+    .hero-overlay h1{
+        font-size: 26px;
+    }
+
+    .hero-overlay p{
+        font-size: 14px;
+    }
+
+    .explore-btn{
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+}

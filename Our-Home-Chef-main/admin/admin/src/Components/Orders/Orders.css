@@ -1,0 +1,28 @@
+.admin-orders{
+  padding: 30px;
+}
+
+.search-box{
+  width: 300px;
+  padding: 12px;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.orders-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+  gap: 20px;
+}
+
+.order-card{
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.order-card h3{
+  margin-bottom: 10px;
+}

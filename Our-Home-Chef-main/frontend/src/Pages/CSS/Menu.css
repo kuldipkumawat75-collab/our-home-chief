@@ -1,0 +1,142 @@
+.menu {
+    width: 100%;
+    padding: 40px 20px;
+    text-align: center;
+    background: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+.menu h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.menu p {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 25px;
+}
+
+/* Category Menu */
+.category-menu {
+    display: flex;
+    justify-content: center;   /* Center me rakhega */
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+.category-menu button {
+    width: 140px;              /* Fixed width */
+    height: 45px;
+    border: 2px solid #ff4d4d;
+    background: #fff;
+    color: #ff4d4d;
+    border-radius: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+} 
+
+.category-menu button:hover {
+    background: #ff4d4d;
+    color: white;
+}
+
+/* Active button */
+.category-menu .active {
+    background: #ff4d4d;
+    color: white;
+    box-shadow: 0 4px 10px rgba(255, 77, 77, 0.3);
+}
+
+.menu-products .item-card:hover {
+    transform: translateY(-5px);
+}
+
+/* =========================
+   TABLET
+========================= */
+@media (max-width:992px){
+
+  .menu{
+    padding:40px 20px;
+  }
+
+  .menu h1{
+    font-size:38px;
+  }
+
+  .menu p{
+    font-size:16px;
+  }
+
+}
+
+/* =========================
+   MOBILE
+========================= */
+@media (max-width:768px){
+
+  .menu{
+    padding:30px 15px;
+  }
+
+  .menu h1{
+    font-size:32px;
+    margin-bottom:8px;
+  }
+
+  .menu p{
+    font-size:14px;
+    margin-bottom:20px;
+  }
+
+  .category-menu{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:12px;
+  }
+
+  .category-menu button{
+    width:110px;
+    height:40px;
+    font-size:13px;
+    padding:0;
+    border-radius:25px;
+  }
+
+}
+
+/* =========================
+   SMALL MOBILE
+========================= */
+@media (max-width:480px){
+
+  .menu{
+    padding:25px 10px;
+  }
+
+  .menu h1{
+    font-size:28px;
+  }
+
+  .menu p{
+    font-size:13px;
+  }
+
+  .category-menu{
+    gap:10px;
+  }
+
+  .category-menu button{
+    width:90px;
+    height:34px;
+    font-size:12px;
+    border-radius:20px;
+  }
+
+}

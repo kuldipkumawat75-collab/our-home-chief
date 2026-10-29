@@ -1,0 +1,54 @@
+.weekly-plan {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 25px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.weekly-plan h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.weekly-plan label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #444;
+}
+
+.weekly-plan input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    outline: none;
+}
+
+.weekly-plan input[type="date"]:focus {
+    border-color: #4CAF50;
+}
+
+.save-btn {
+    width: 100%;
+    padding: 14px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.save-btn:hover {
+    background: #43a047;
+}

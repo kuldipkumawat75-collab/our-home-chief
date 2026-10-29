@@ -1,0 +1,28 @@
+.weekly-plan-list {
+    width: 90%;
+    margin: 30px auto;
+}
+
+.plan-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    background: #fff;
+}
+
+.day-card {
+    border: 1px solid #eee;
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: 8px;
+    background: #fafafa;
+}
+
+.day-card h4 {
+    margin-bottom: 10px;
+}
+
+.day-card p {
+    margin: 6px 0;
+}

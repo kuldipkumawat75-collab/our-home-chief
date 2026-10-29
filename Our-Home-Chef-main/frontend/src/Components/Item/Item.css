@@ -1,0 +1,144 @@
+.card{
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    transition: .3s;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+.card-img-top{
+    height:220px;
+    object-fit:cover;
+}
+
+.card-body{
+    text-align:center;
+}
+
+.card-title{
+    font-size:20px;
+    font-weight:600;
+}
+
+.card-text{
+    font-size:18px;
+    color:#2ecc71;
+    font-weight:bold;
+}
+
+.add-cart-btn{
+    width:100%;
+    margin-top:12px;
+    padding:10px;
+    border:none;
+    border-radius:8px;
+    background:#2ecc71;
+    color:white;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.add-cart-btn:hover{
+    background:#27ae60;
+}
+
+/* ==========================
+   TABLET (992px)
+========================== */
+
+@media (max-width: 992px) {
+
+    .card-img-top{
+        height:180px;
+    }
+
+    .card-title{
+        font-size:18px;
+    }
+
+    .card-text{
+        font-size:16px;
+    }
+
+    .add-cart-btn{
+        padding:9px;
+        font-size:15px;
+    }
+
+}
+
+/* ==========================
+   MOBILE (768px)
+========================== */
+
+@media (max-width:768px){
+
+    .card{
+        border-radius:12px;
+    }
+
+    .card-img-top{
+        height:160px;
+    }
+
+    .card-body{
+        padding:12px;
+    }
+
+    .card-title{
+        font-size:17px;
+    }
+
+    .card-text{
+        font-size:15px;
+        margin-bottom:8px;
+    }
+
+    .add-cart-btn{
+        padding:8px;
+        font-size:14px;
+        border-radius:6px;
+    }
+
+}
+
+/* ==========================
+   SMALL MOBILE (480px)
+========================== */
+
+@media (max-width:480px){
+
+    .card{
+        border-radius:10px;
+    }
+
+    .card-img-top{
+        height:130px;
+    }
+
+    .card-body{
+        padding:10px;
+    }
+
+    .card-title{
+        font-size:15px;
+        margin-bottom:5px;
+    }
+
+    .card-text{
+        font-size:14px;
+        margin-bottom:6px;
+    }
+
+    .add-cart-btn{
+        padding:7px;
+        font-size:13px;
+    }
+
+}

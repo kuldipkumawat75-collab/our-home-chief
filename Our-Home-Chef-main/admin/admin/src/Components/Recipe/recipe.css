@@ -1,0 +1,44 @@
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.chips {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.chip {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  background: #e0e0e0;
+}
+
+.active {
+  background: green;
+  color: white;
+}
+
+.recommendBtn {
+  padding: 10px 20px;
+  background: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cards {
+  margin-top: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
